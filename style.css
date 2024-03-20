@@ -293,6 +293,10 @@ h6 {
   margin-bottom: clamp(1.5rem, 0.751vw + 1.324rem, 2rem);
 }
 
+.e-founder-cta__bg-img {
+  display: none;
+}
+
 /* FOOTER */
 
 .b-footer {
@@ -346,8 +350,15 @@ h6 {
 
   .e-founder-cta__body {
     margin-top: 0;
+    position: relative;
   }
 
+  .e-founder-cta__bg-img {
+    display: block;
+    position: absolute;
+    top: 21vh;
+    left: 36vw;
+  }
   .e-founder-cta__img {
     max-width: 17.5625rem;
     align-self: flex-start;
@@ -404,7 +415,12 @@ h6 {
   .e-founder-cta__img {
     max-width: 30rem;
   }
-
+  .e-founder-cta__bg-img {
+    display: block;
+    position: absolute;
+    top: 28vh;
+    left: 25vw;
+  }
   .e-header_bg-img-1 {
     left: -136px;
     top: 136px;
